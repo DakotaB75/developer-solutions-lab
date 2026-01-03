@@ -1,0 +1,24 @@
+{
+  "name": "microsoft-dev-solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakotaB75/microsoft-dev-solutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DakotaB75/microsoft-dev-solutions/issues"
+  },
+  "homepage": "https://github.com/DakotaB75/microsoft-dev-solutions#readme"
+}
