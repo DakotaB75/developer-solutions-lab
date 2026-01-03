@@ -1,6 +1,6 @@
 ![Microsoft Dev Solutions](diagrams/microsoft-dev-solutions-banner.png)
 
-# microsoft-dev-solutions
+## Open Source at Microsoft Experimental Lab
 
 ![CI](https://github.com/DakotaB75/AZ-400-ci-cd-github-actions-azure/actions/workflows/ci.yml/badge.svg)
 ![CD Prod](https://github.com/DakotaB75/AZ-400-ci-cd-github-actions-azure/actions/workflows/cd-production.yml/badge.svg)
@@ -12,8 +12,6 @@
 
 ---
 
-## Open Source at Microsoft Experimental Lab
-
 ## Get Involved
 
 This repository is a **living lab for developers, maintainers, and experimenters**.  
@@ -23,7 +21,7 @@ If you want to contribute:
 
 - Explore issues labeled **good first issue** for beginner-friendly opportunities.  
 - Submit solutions via **pull requests**, adhering to the maintainer checklist.  
-- Open issues for discussion or clarification—**do not email** individual contributors directly.  
+- Open issues for discussion or clarification **do not email** individual contributors directly.  
 
 > All contributions are evaluated for reproducibility, clarity, and traceability.
 
@@ -47,7 +45,7 @@ If you want to contribute:
 ## Community & Governance
 
 - **Microsoft Open Source Code of Conduct** applies: see [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/).  
-- Issues and PRs are the main channel for discussion—maintainers will guide contributions.  
+- Issues and PRs are the main channel for discussion maintainers will guide contributions.  
 - All solutions include **traceability, verification, and explicit limitations**.  
 
 ---

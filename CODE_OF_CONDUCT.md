@@ -1,6 +1,5 @@
 # Code of Conduct
-
-Welcome to **microsoft-dev-solutions**, an open-source experimentation lab for learning and innovation. As a participant, you are expected to follow this Code of Conduct to maintain a safe and respectful environment.
+It is an open-source experimentation lab for learning and innovation. As a participant, you are expected to follow this Code of Conduct to maintain a safe and respectful environment.
 
 ## Our Pledge
 We pledge to make participation in this project harassment-free and inclusive for everyone, regardless of age, body size, disability, ethnicity, gender identity, level of experience, nationality, personal appearance, race, religion, or sexual orientation.

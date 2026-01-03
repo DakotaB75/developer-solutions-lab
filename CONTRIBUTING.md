@@ -1,6 +1,5 @@
 # Contributing to microsoft-dev-solutions
-
-Welcome to **microsoft-dev-solutions**! This project is an open-source experimentation lab maintained by DakotaB75. Your contributions are valued, and following these guidelines ensures a smooth and professional collaboration.
+Your contributions are valued, and following these guidelines ensures a smooth and professional collaboration.
 
 ## Fork the Repository
 To contribute, fork the repository to your GitHub account. This creates your personal copy that you can freely modify.
@@ -51,7 +50,7 @@ Submit your PR.
 Monitor your PR and address feedback promptly.
 Ensure all tests and builds pass.
 Adhere to the Code of Conduct.
-Only the maintainer DakotaB75 approves merges into the main/develop branch.
+Only the maintainer DakotaB75 approves merges into the main/aws-labs branch.
 
 ## Contributor License Agreement
-By contributing, you agree that your contributions are licensed under MIT No Attribution. This ensures the project remains free, open, and legally safe.
+By contributing, you agree that your contributions are licensed under MIT No Attribution. This ensures the project remains free, open, and safe.
