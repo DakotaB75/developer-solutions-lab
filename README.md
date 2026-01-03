@@ -30,7 +30,7 @@ If you want to contribute:
 ## Featured Projects
 
 - **CI/CD Pipelines** using GitHub Actions, Docker, and Azure (see `/solutions/ci-cd`).  
-- **Cloud Labs** on Azure ML and AWS experimental environments (see `/aws-lab` and `/azure`).  
+- **Cloud Labs** on Azure ML and AWS experimental environments (see `/aws-lab` and `/azure-lab`).  
 - **Sample Applications** for learning and testing (`/app/sample-app`).  
 
 ---
