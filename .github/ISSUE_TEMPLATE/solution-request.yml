@@ -1,0 +1,96 @@
+name: Solution request / Technical issue
+description: Propose a reproducible issue or solution for microsoft-dev-solutions
+title: "[solution] <short, specific description>"
+labels: ["solution-request"]
+assignees:
+  - DakotaB75
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository accepts **reproducible, real-world issues only**.
+        Incomplete or non-reproducible requests may be closed.
+
+  - type: dropdown
+    attributes:
+      label: Scope
+      description: Where does this issue apply?
+      options:
+        - AWS Lab
+        - Azure Lab
+        - CI/CD
+        - VS Code / Tooling
+        - Local / Environment
+        - Documentation
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Environment
+      options:
+        - Azure
+        - AWS
+        - Local
+        - Hybrid (Azure + AWS)
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Tool / Service versions
+      description: Example: Python 3.12, Node 22, Azure CLI 2.x, AWS SDK v3
+      placeholder: "List exact versions here"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Problem statement
+      description: Describe the problem clearly and concretely.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: What should happen according to documentation or design?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Actual behavior
+      description: What actually happens?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Why this happens (your hypothesis)
+      description: Optional but encouraged. Share your technical reasoning.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Reproduction steps
+      description: Commands, configs, queries. No screenshots only.
+      placeholder: |
+        1. Run command X
+        2. Configure Y
+        3. Observe Z
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Validation checklist
+      options:
+        - label: I can reproduce this consistently
+          required: true
+        - label: I verified this is not documented as by-design
+          required: true
+        - label: I checked existing issues and discussions
+          required: true
