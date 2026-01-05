@@ -1,7 +1,5 @@
 ![Banner Dev Solutions](diagrams/banner.png)
 
-## Open Source Developer Solutions Lab
-
 ![CI](https://github.com/DakotaB75/AZ-400-ci-cd-github-actions-azure/actions/workflows/ci.yml/badge.svg)
 ![CD Prod](https://github.com/DakotaB75/AZ-400-ci-cd-github-actions-azure/actions/workflows/cd-production.yml/badge.svg)
 ![CodeQL](https://github.com/DakotaB75/AZ-400-ci-cd-github-actions-azure/actions/workflows/security-codeql.yml/badge.svg)
@@ -11,6 +9,8 @@
 ![AWS Cloud](https://img.shields.io/badge/AWS-Cloud%20Developer-blue)
 
 ---
+## Open Source Developer Solutions Lab
+
 This repository is an experimental lab focused on **reproducible developer solutions**.  
 It documents real technical problems and validated approaches across **CI/CD, cloud infrastructure, and tooling**.
 
