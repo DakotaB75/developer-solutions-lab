@@ -1,4 +1,4 @@
-![AWS Lab Architecture](diagrams/aws_lab_architecture.png)
+![AWS Lab Architecture](diagrams/aws_lab.png)
 
 ![AWS](https://img.shields.io/badge/AWS-green)
 ![EC2](https://img.shields.io/badge/EC2-green)
@@ -9,6 +9,8 @@
 ![C#](https://img.shields.io/badge/C%23-green)
 ![Python](https://img.shields.io/badge/Python-green)
 ![CUDA](https://img.shields.io/badge/CUDA-green)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Version](https://img.shields.io/badge/version-v1.0.0-green)
 
 # AWS Labs
 
@@ -19,6 +21,9 @@ Explore core AWS services and deploy sample applications safely.
 ---
 
 ### Lab Structure
+
+```text
+
 aws-labs/
 | README.md
 |
@@ -42,6 +47,8 @@ aws-labs/
 |
 ---pipelines
 github_actions_sim.py
+
+```
 
 - **cpp/** – AWS SDK for C++ examples.  
 - **csharp/** – AWS SDK for C# examples.  
