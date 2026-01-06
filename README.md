@@ -1,69 +1,91 @@
-![Banner Dev Solutions](diagrams/banner.png)
+![AWS Lab Architecture](diagrams/aws_lab.png)
 
-![CI](https://github.com/DakotaB75/AZ-400-ci-cd-github-actions-azure/actions/workflows/ci.yml/badge.svg)
-![CD Prod](https://github.com/DakotaB75/AZ-400-ci-cd-github-actions-azure/actions/workflows/cd-production.yml/badge.svg)
-![CodeQL](https://github.com/DakotaB75/AZ-400-ci-cd-github-actions-azure/actions/workflows/security-codeql.yml/badge.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![AWS](https://img.shields.io/badge/AWS-green)
+![EC2](https://img.shields.io/badge/EC2-green)
+![S3](https://img.shields.io/badge/S3-green)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-green)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-green)
+![C++](https://img.shields.io/badge/C++-green)
+![C#](https://img.shields.io/badge/C%23-green)
+![Python](https://img.shields.io/badge/Python-green)
+![CUDA](https://img.shields.io/badge/CUDA-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-v1.0.0-green)
-![AZ-400](https://img.shields.io/badge/AZ--400-DevOps%20Engineer%20Expert-blue)
-![AWS Cloud](https://img.shields.io/badge/AWS-Cloud%20Developer-blue)
 
----
-## Open Source Developer Solutions Lab
+# AWS Labs
 
-This repository is an experimental lab focused on **reproducible developer solutions**.  
-It documents real technical problems and validated approaches across **CI/CD, cloud infrastructure, and tooling**.
+Welcome to the AWS Experimentation Lab.
 
-The goal is learning through practice: understand *why* issues happen, *how* to reproduce them, and *how* to resolve them responsibly.
+Explore core AWS services and deploy sample applications safely.
 
 ---
 
-## Scope
+### Lab Structure
 
-This project may include experiments and examples involving:
-- CI/CD pipelines (GitHub Actions, Docker)
-- Cloud platforms (Azure, AWS)
-- Local development and testing environments
+```text
+aws-labs/
+ ├─ README.md
+ ├─ cpp/
+ │  └─ s3_latency_probe.cpp
+ ├─ csharp/
+ │  └─ AwsHealthCheck.cs
+ ├─ cuda/
+ │  └─ gpu_visibility_check.cu
+ ├─ env/
+ │  ├─ environment.yml
+ │  └─ requirements.txt
+ └─ python/
+    ├─ diagnostics/
+    │  ├─ aws_env_check.py
+    │  └─ permissions_probe.py
+    └─ pipelines/
+       └─ github_actions_sim.py
+```
 
-All content is provided for **educational and experimental purposes**.
-
----
-
-## Getting Involved
-
-Contributions are welcome and evaluated based on:
-- Reproducibility
-- Technical clarity
-- Explicit assumptions and limitations
-
-How to contribute:
-- Check issues labeled **good first issue**
-- Submit pull requests with clear descriptions
-- Use issues for discussion and questions
-
-> Please use GitHub issues and pull requests as the primary communication channels.
-
----
-
-## Project Structure
-
-- `solutions/` – Documented technical solutions and experiments  
-- `aws-labs/` – AWS-focused experiments  
-- `azure-labs/` – Azure-focused experiments  
-- `apps/` – Sample applications used for testing and validation  
+- **cpp/** – AWS SDK for C++ examples.  
+- **csharp/** – AWS SDK for C# examples.  
+- **cuda/** – GPU verification scripts (optional).  
+- **env/** – Python dependencies (`requirements.txt`) or Conda (`environment.yml`).  
+- **python/diagnostics/** – Validate AWS environment and IAM permissions.  
+- **python/pipelines/** – Simulated CI/CD pipelines.
 
 ---
 
-## Maintainer
+### Environment Setup
 
-Maintained by **DakotaB75** as an independent open-source contributor.
+Before running any examples, ensure your local environment has the following installed:
 
-This is a personal learning and experimentation project.  
-There is no official support, SLA, or guaranteed stability.
+1. **C++ Development**
+   - Visual Studio 2022 Build Tools (with C++ Desktop workload)  
+   - Optional: [AWS SDK for C++](https://aws.amazon.com/sdk-for-cpp/) (or include headers in your project)
+   - CUDA Toolkit (for `.cu` scripts, optional): ensure `nvcc` is in PATH
 
----
+2. **C# Development**
+   - .NET 7 SDK or later
+   - [AWS SDK for .NET](https://aws.amazon.com/sdk-for-net/)
 
-## License
+3. **Python Development**
+   - Python 3.9+  
+   - Install dependencies:  
+     ```bash
+     pip install -r env/requirements.txt
+     ```
+   - Optional: Conda environment using `env/environment.yml`
 
-This project is licensed under the MIT License.  
-See the [LICENSE](LICENSE) file for details.
+4. **AWS Credentials**
+   - Set `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` in environment variables  
+   - Use sandbox or test accounts to prevent charges
+
+5. **Verification**
+   - Run diagnostic scripts to validate setup:
+     ```bash
+     python python/diagnostics/aws_env_check.py
+     python python/diagnostics/permissions_probe.py
+     ```
+   - Expected output confirms connectivity and IAM permissions
+
+**Notes**
+- All scripts are safe and read-only.
+- Backticks denote variables or environment keys: `AWS_ACCESS_KEY_ID`.
+- Keyboard shortcuts in Visual Studio Code should use `kb(...)` notation.
+- Include `Fixes #<number>` in PRs for traceability.
