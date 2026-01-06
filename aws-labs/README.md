@@ -22,33 +22,23 @@ Explore core AWS services and deploy sample applications safely.
 
 ### Lab Structure
 
-```text
-
 aws-labs/
-| README.md
-|
-+---cpp
-| s3_latency_probe.cpp
-|
-+---csharp
-| AwsHealthCheck.cs
-|
-+---cuda
-| gpu_visibility_check.cu
-|
-+---env
-| environment.yml
-| requirements.txt
-|
----python
-+---diagnostics
-| aws_env_check.py
-| permissions_probe.py
-|
----pipelines
-github_actions_sim.py
-
-```
+ ├─ README.md
+ ├─ cpp/
+ │  └─ s3_latency_probe.cpp
+ ├─ csharp/
+ │  └─ AwsHealthCheck.cs
+ ├─ cuda/
+ │  └─ gpu_visibility_check.cu
+ ├─ env/
+ │  ├─ environment.yml
+ │  └─ requirements.txt
+ └─ python/
+    ├─ diagnostics/
+    │  ├─ aws_env_check.py
+    │  └─ permissions_probe.py
+    └─ pipelines/
+       └─ github_actions_sim.py
 
 - **cpp/** – AWS SDK for C++ examples.  
 - **csharp/** – AWS SDK for C# examples.  
