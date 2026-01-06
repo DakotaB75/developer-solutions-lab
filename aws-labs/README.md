@@ -22,6 +22,7 @@ Explore core AWS services and deploy sample applications safely.
 
 ### Lab Structure
 
+```text
 aws-labs/
  ├─ README.md
  ├─ cpp/
@@ -39,6 +40,7 @@ aws-labs/
     │  └─ permissions_probe.py
     └─ pipelines/
        └─ github_actions_sim.py
+```
 
 - **cpp/** – AWS SDK for C++ examples.  
 - **csharp/** – AWS SDK for C# examples.  
