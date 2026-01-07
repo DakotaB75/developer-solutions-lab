@@ -62,6 +62,11 @@ This is a personal learning and experimentation project.
 There is no official support, SLA, or guaranteed stability.
 
 ---
+## Support
+
+If you find this project useful, consider supporting it via GitHub Sponsors.
+
+---
 
 ## License
 
