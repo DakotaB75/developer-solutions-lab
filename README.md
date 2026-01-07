@@ -5,14 +5,13 @@
 ![S3](https://img.shields.io/badge/S3-4B4B4B?style=flat&logo=amazons3&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4B4B4B?style=flat&logo=amazondynamodb&logoColor=white)
 ![CloudWatch](https://img.shields.io/badge/CloudWatch-4B4B4B?style=flat&logo=amazoncloudwatch&logoColor=white)
-
 ![C++](https://img.shields.io/badge/C%2B%2B-6E6E6E?style=flat&logo=cplusplus)
 ![C#](https://img.shields.io/badge/C%23-6E6E6E?style=flat&logo=csharp)
 ![Python](https://img.shields.io/badge/Python-6E6E6E?style=flat&logo=python)
 ![CUDA](https://img.shields.io/badge/CUDA-6E6E6E?style=flat&logo=nvidia)
-
 ![License](https://img.shields.io/badge/license-MIT-6E6E6E)
 ![Version](https://img.shields.io/badge/version-v1.0.0-6E6E6E)
+
 # AWS Labs
 
 Welcome to the AWS Experimentation Lab.
