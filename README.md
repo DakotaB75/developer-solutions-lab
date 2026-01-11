@@ -74,6 +74,9 @@ If you find this project useful, consider supporting it via GitHub Sponsors.
   <img src="https://github.com/Crisfontana29.png" width="72" />
 </a>
 
+<a href="https://github.com/Kohenkyo" title="GitHub Sponsor">
+  <img src="https://github.com/Kohenkyo.png" width="72" />
+</a>
 ---
 
 ## License
