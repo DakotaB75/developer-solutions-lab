@@ -67,6 +67,11 @@ There is no official support, SLA, or guaranteed stability.
 If you find this project useful, consider supporting it via GitHub Sponsors.
 
 ---
+## Sponsors
+
+[![Sponsors](https://github.com/sponsors/DakotaB75/card)](https://github.com/sponsors/DakotaB75)
+
+---
 
 ## License
 
