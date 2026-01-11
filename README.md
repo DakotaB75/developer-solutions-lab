@@ -67,9 +67,12 @@ There is no official support, SLA, or guaranteed stability.
 If you find this project useful, consider supporting it via GitHub Sponsors.
 
 ---
-## Sponsors
 
-[![Sponsors](https://github.com/sponsors/DakotaB75/card)](https://github.com/sponsors/DakotaB75)
+## Thanks to our Sponsors
+
+<a href="https://github.com/Crisfontana29" title="GitHub Sponsor">
+  <img src="https://github.com/Crisfontana29.png" width="72" />
+</a>
 
 ---
 
