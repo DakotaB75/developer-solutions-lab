@@ -70,11 +70,11 @@ If you find this project useful, consider supporting it via GitHub Sponsors.
 
 ## Thanks to our Sponsors
 
-<a href="https://github.com/Crisfontana29" title="GitHub Sponsor">
+<a href="https://github.com/Crisfontana29" title="GitHub Sponsor 1">
   <img src="https://github.com/Crisfontana29.png" width="72" />
 </a>
 
-<a href="https://github.com/Kohenkyo" title="GitHub Sponsor">
+<a href="https://github.com/Kohenkyo" title="GitHub Sponsor 2">
   <img src="https://github.com/Kohenkyo.png" width="72" />
 </a>
 
