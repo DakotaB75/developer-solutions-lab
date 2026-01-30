@@ -1,14 +1,24 @@
 {
-  "version": 4,
-  "configurations": [
-    {
-      "name": "Linux",
-      "includePath": [
-        "/this/will/be/ignored"
-      ],
-      "defines": [
-        "IGNORED_DEFINE=1"
-      ]
-    }
-  ]
+    "configurations": [
+        {
+            "name": "Windows-Generic-All",
+            "compilerPath": "",
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "__CUDACC__"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
 }
