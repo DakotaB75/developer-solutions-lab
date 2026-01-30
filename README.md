@@ -1,47 +1,53 @@
-![Banner Dev Solutions](diagrams/banner.png)
+![AWS Lab Architecture](diagrams/aws_lab.png)
 
-![CI](https://github.com/DakotaB75/AZ-400-ci-cd-github-actions-azure/actions/workflows/ci.yml/badge.svg)
-![CD Prod](https://github.com/DakotaB75/AZ-400-ci-cd-github-actions-azure/actions/workflows/cd-production.yml/badge.svg)
-![CodeQL](https://github.com/DakotaB75/AZ-400-ci-cd-github-actions-azure/actions/workflows/security-codeql.yml/badge.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Version](https://img.shields.io/badge/version-v1.0.0-green)
-![AZ-400](https://img.shields.io/badge/AZ--400-DevOps%20Engineer%20Expert-blue)
-![AWS Cloud](https://img.shields.io/badge/AWS-Cloud%20Developer-blue)
+![AWS](https://img.shields.io/badge/AWS-4B4B4B?style=flat&logo=amazonaws&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-4B4B4B?style=flat&logo=amazonaws&logoColor=white)
+![S3](https://img.shields.io/badge/S3-4B4B4B?style=flat&logo=amazons3&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4B4B4B?style=flat&logo=amazondynamodb&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-4B4B4B?style=flat&logo=amazoncloudwatch&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-6E6E6E?style=flat&logo=cplusplus)
+![C#](https://img.shields.io/badge/C%23-6E6E6E?style=flat&logo=csharp)
+![Python](https://img.shields.io/badge/Python-6E6E6E?style=flat&logo=python)
+![CUDA](https://img.shields.io/badge/CUDA-6E6E6E?style=flat&logo=nvidia)
+![License](https://img.shields.io/badge/license-MIT-6E6E6E)
+![Version](https://img.shields.io/badge/version-v1.0.0-6E6E6E)
 
----
-## Open Source Developer Solutions Lab
+# AWS Labs
 
-This repository is an experimental lab focused on **reproducible developer solutions**.  
-It documents real technical problems and validated approaches across **CI/CD, cloud infrastructure, and tooling**.
+Welcome to the AWS Experimentation Lab.
 
-The goal is learning through practice: understand *why* issues happen, *how* to reproduce them, and *how* to resolve them responsibly.
-
----
-
-## Scope
-
-This project may include experiments and examples involving:
-- CI/CD pipelines (GitHub Actions, Docker)
-- Cloud platforms (Azure, AWS)
-- Local development and testing environments
-
-All content is provided for **educational and experimental purposes**.
+Explore core AWS services and deploy sample applications safely.
 
 ---
 
-## Getting Involved
+### Lab Structure
 
-Contributions are welcome and evaluated based on:
-- Reproducibility
-- Technical clarity
-- Explicit assumptions and limitations
+```text
+aws-labs/
+ ├─ README.md
+ ├─ cpp/
+ │  └─ s3_latency_probe.cpp
+ ├─ csharp/
+ │  └─ AwsHealthCheck.cs
+ ├─ cuda/
+ │  └─ gpu_visibility_check.cu
+ ├─ env/
+ │  ├─ environment.yml
+ │  └─ requirements.txt
+ └─ python/
+    ├─ diagnostics/
+    │  ├─ aws_env_check.py
+    │  └─ permissions_probe.py
+    └─ pipelines/
+       └─ github_actions_sim.py
+```
 
-How to contribute:
-- Check issues labeled **good first issue**
-- Submit pull requests with clear descriptions
-- Use issues for discussion and questions
-
-> Please use GitHub issues and pull requests as the primary communication channels.
+- **cpp/** – AWS SDK for C++ examples.  
+- **csharp/** – AWS SDK for C# examples.  
+- **cuda/** – GPU verification scripts (optional).  
+- **env/** – Python dependencies (`requirements.txt`) or Conda (`environment.yml`).  
+- **python/diagnostics/** – Validate AWS environment and IAM permissions.  
+- **python/pipelines/** – Simulated CI/CD pipelines.
 
 ---
 

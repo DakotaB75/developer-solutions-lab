@@ -1,18 +1,16 @@
 {
-  "configurations": [
-    {
-      "name": "Windows-Generic",
-      "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/**/bin/Hostx64/x64/cl.exe",
-      "intelliSenseMode": "windows-msvc-x64",
-      "cStandard": "c17",
-      "cppStandard": "c++17",
-      "includePath": [
-        "${workspaceFolder}/**"
-      ],
-      "defines": [
-        "__CUDACC__"
-      ]
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "Windows-C++-Fallback",
+            "compilerPath": "",
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
 }
