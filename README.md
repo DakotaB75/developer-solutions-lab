@@ -51,41 +51,42 @@ aws-labs/
 
 ---
 
-### Environment Setup
+## Project Structure
 
-Before running any examples, ensure your local environment has the following installed:
+- `solutions/` – Documented technical solutions and experiments  
+- `aws-labs/` – AWS-focused experiments  
+- `azure-labs/` – Azure-focused experiments  
+- `apps/` – Sample applications used for testing and validation  
 
-1. **C++ Development**
-   - Visual Studio 2022 Build Tools (with C++ Desktop workload)  
-   - Optional: [AWS SDK for C++](https://aws.amazon.com/sdk-for-cpp/) (or include headers in your project)
-   - CUDA Toolkit (for `.cu` scripts, optional): ensure `nvcc` is in PATH
+---
 
-2. **C# Development**
-   - .NET 7 SDK or later
-   - [AWS SDK for .NET](https://aws.amazon.com/sdk-for-net/)
+## Maintainer
 
-3. **Python Development**
-   - Python 3.9+  
-   - Install dependencies:  
-     ```bash
-     pip install -r env/requirements.txt
-     ```
-   - Optional: Conda environment using `env/environment.yml`
+Maintained by **DakotaB75** as an independent open-source contributor.
 
-4. **AWS Credentials**
-   - Set `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` in environment variables  
-   - Use sandbox or test accounts to prevent charges
+This is a personal learning and experimentation project.  
+There is no official support, SLA, or guaranteed stability.
 
-5. **Verification**
-   - Run diagnostic scripts to validate setup:
-     ```bash
-     python python/diagnostics/aws_env_check.py
-     python python/diagnostics/permissions_probe.py
-     ```
-   - Expected output confirms connectivity and IAM permissions
+---
+## Support
 
-**Notes**
-- All scripts are safe and read-only.
-- Backticks denote variables or environment keys: `AWS_ACCESS_KEY_ID`.
-- Keyboard shortcuts in Visual Studio Code should use `kb(...)` notation.
-- Include `Fixes #<number>` in PRs for traceability.
+If you find this project useful, consider supporting it via GitHub Sponsors.
+
+---
+
+## Thanks to our Sponsors
+
+<a href="https://github.com/Crisfontana29" title="GitHub Sponsor 1">
+  <img src="https://github.com/Crisfontana29.png" width="72" />
+</a>
+
+<a href="https://github.com/Kohenkyo" title="GitHub Sponsor 2">
+  <img src="https://github.com/Kohenkyo.png" width="72" />
+</a>
+
+---
+
+## License
+
+This project is licensed under the MIT License.  
+See the LICENSE file for details.
