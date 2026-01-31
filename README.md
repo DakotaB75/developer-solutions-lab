@@ -72,7 +72,7 @@ If you find this project useful, consider supporting it via GitHub Sponsors.
 
 <a href="https://github.com/Crisfontana29" title="GitHub Sponsor: Crisfontana29">
   <img
-    src="Sponsors/Sponsor_Cristian.png"
+    src="diagrams/Sponsors/Sponsor_Cristian.png"
     width="72"
     height="72"
     style="border-radius:50%; object-fit:cover;"
