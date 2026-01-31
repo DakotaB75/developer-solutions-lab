@@ -20,4 +20,4 @@ GPU detection is used in local machines during development.
 It is common in cloud environments with varying hardware.
 CI systems use it to enable or skip GPU-dependent tests.
 Machine learning tools rely on it to select execution paths.
-Graphics and compute-intensive applications use it by default.
+Graphics and compute intensive applications use it by default.
