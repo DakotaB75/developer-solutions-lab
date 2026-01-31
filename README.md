@@ -69,7 +69,6 @@ If you find this project useful, consider supporting it via GitHub Sponsors.
 ---
 
 ## Thanks to our Sponsors
-
 <a href="https://github.com/Crisfontana29" title="GitHub Sponsor: Crisfontana29">
   <img
     src="diagrams/Sponsors/Sponsor_Cristian.png"
