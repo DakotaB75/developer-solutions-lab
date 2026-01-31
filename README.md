@@ -80,7 +80,7 @@ If you find this project useful, consider supporting it via GitHub Sponsors.
   />
 </a>
 
-<a href="https://github.com/Kohenkyo" title="GitHub Sponsor: Kohenkyo">
+<a href="https://github.com/Kohenkyo" title="GitHub Sponsor: Kohenkyo (Nat)">
   <img
     src="diagrams/Sponsors/Sponsor_Nat.png"
    alt="Sponsor: Kohenkyo"
