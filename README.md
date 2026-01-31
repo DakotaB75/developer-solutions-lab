@@ -83,10 +83,10 @@ If you find this project useful, consider supporting it via GitHub Sponsors.
 <a href="https://github.com/Kohenkyo" title="GitHub Sponsor: Kohenkyo">
   <img
     src="diagrams/Sponsors/Sponsor_Nat.png"
-    width="72"
-    height="72"
-    style="border-radius:50%; object-fit:cover;"
-    alt="Kohenkyo GitHub profile"
+   alt="Sponsor: Kohenkyo"
+    width="96"
+    height="96"
+    style="border-radius: 50%;"
   />
 </a>
 
