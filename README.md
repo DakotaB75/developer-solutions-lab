@@ -88,7 +88,64 @@ g++ filesystem_watcher.cpp -std=c++17 -o watcher
 ---
 Notes
 
-- CUDA examples require GPU-enabled Azure VMs.
-- Authentication uses DefaultAzureCredential.
-- Keyboard shortcuts in Visual Studio Code should reference command IDs, e.g. kb(workbench.action.showCommands).
-- Include Fixes #<number> in PRs for traceability.
+## Project Structure
+
+- `solutions/` – Documented technical solutions and experiments  
+- `aws-labs/` – AWS-focused experiments  
+- `azure-labs/` – Azure-focused experiments  
+- `apps/` – Sample applications used for testing and validation  
+
+---
+
+## Maintainer
+
+Maintained by **DakotaB75** as an independent open-source contributor.
+
+This is a personal learning and experimentation project.  
+There is no official support, SLA, or guaranteed stability.
+
+---
+## Support
+
+If you find this project useful, consider supporting it via GitHub Sponsors.
+
+---
+
+## Thanks to our Sponsors
+<a href="https://github.com/Crisfontana29" title="GitHub Sponsor: Crisfontana29">
+  <img
+    src="diagrams/Sponsors/Sponsor_Cristian.png"
+    alt="Sponsor: Crisfontana29"
+    width="96"
+    height="96"
+    style="border-radius: 50%;"
+  />
+</a>
+
+<a href="https://github.com/Kohenkyo" title="GitHub Sponsor: Kohenkyo (Nat)">
+  <img
+    src="diagrams/Sponsors/Sponsor_Nat.png"
+    alt="Sponsor: Kohenkyo"
+    width="96"
+    height="96"
+    style="border-radius: 50%;"
+  />
+</a>
+
+---
+
+## Contributors
+
+This project is maintained with the help of the open-source community.  
+We thank the following contributors for their time and contributions:
+
+- @Crisfontana29 — Documentation
+- @Sharayu1418 — TypeScript diagnostics
+- @poppyseeds — Azure documentation
+
+---
+
+## License
+
+This project is licensed under the MIT License.  
+See the LICENSE file for details.

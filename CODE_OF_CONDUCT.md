@@ -1,15 +1,12 @@
-# Code of Conduct
+## Code of Conduct
 
-This project follows a standard open-source code of conduct to ensure a respectful and inclusive environment.
+This project follows the Contributor Covenant Code of Conduct.
 
-## Our Pledge
+### Scope
+All interactions within this repository and its communication channels are expected to remain professional and respectful.
 
-We are committed to making participation in this project harassment-free and welcoming for everyone.
+### Enforcement
+The maintainer is responsible for enforcing this code of conduct.
 
-## Enforcement
-
-Project maintainers are responsible for clarifying and enforcing this code of conduct.
-
-## Reporting
-
-If you experience unacceptable behavior, please open a private GitHub issue or contact the maintainer via GitHub.
+### Reporting
+Unacceptable behavior may be reported via a private communication channel on GitHub (e.g. direct message to the maintainer).
