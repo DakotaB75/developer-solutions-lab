@@ -80,6 +80,16 @@ If you find this project useful, consider supporting it via GitHub Sponsors.
   />
 </a>
 
+<a href="https://github.com/Crisfontana29" title="GitHub Sponsor: Crisfontana29">
+  <img
+    src="diagrams/Sponsors/Sponsor_Cristian.png"
+    alt="Sponsor: Crisfontana29"
+    width="96"
+    height="96"
+    style="border-radius: 50%;"
+  />
+</a>
+
 <a href="https://github.com/Kohenkyo" title="GitHub Sponsor: Kohenkyo">
   <img
     src="diagrams/Sponsors/Sponsor_Nat.png"
