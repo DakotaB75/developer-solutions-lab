@@ -11,8 +11,8 @@
 ---
 ## Open Source Developer Solutions Lab
 
-This repository is a hands-on AWS cloud experimentation lab focused on reproducible learning and developer solutions.  
-It documents real-world scenarios, practical DevOps workflows and infrastructure experiments designed to help developers understand AWS services through structured, open-source learning.
+This repository is an experimental lab focused on *reproducible developer solutions*.  
+It documents real technical problems and validated approaches across *CI/CD, cloud infrastructure, and tooling*.
 
 The goal is learning through practice: understand *why* issues happen, *how* to reproduce them, and *how* to resolve them responsibly.
 
